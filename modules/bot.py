@@ -34,7 +34,7 @@ piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/Disney_storeDan"),
     ]
 ]
 
@@ -52,15 +52,15 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ Dan - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Dan-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -71,12 +71,12 @@ in_alive = """
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Bro Dan** 😁",
+    "**Maaf ka habis nemenin ka Dan** 🥺",
+    "**Maaf ka habis disuruh Tuan Dan** 🥺🙏🏻",
+    "**Hadir Dan Sayang** 😘",
+    "**Hadir Dan Akuuuuhhh** ☺️",
+    "**Hadir Dan brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -89,12 +89,12 @@ async def kynanabsen(ganteng):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**Dan Punya Nya Fira**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Fira Punya Nya Dan**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
