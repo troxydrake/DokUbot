@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
+  <img src="./resources/extras/logo.jpg" alt="Dan Logo">
 </p>
 <h1 align="center">
-  <b>иᴀʏᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
+  <b>ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
 
 
 [![Last Commit](https://img.shields.io/github/last-commit/naya1503/Naya-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge)](https://github.com/naya1503/Naya-Userbot/commits)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/naya1503/Naya-Userbot)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/barcacoty2024/Naya-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/naya1503/Naya-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/naya1503/Naya-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/fork)
+[![GitHub Forks](https://img.shields.io/github/forks/barcacoty2024/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/stargazers)
 ----
 
@@ -39,7 +39,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 • `sudo apt-get install python3-pip ffmpeg -y`
 
- • `git clone https://github.com/naya1503/Naya-Userbot`
+ • `git clone https://github.com/barcacoty2024/Naya-Userbot`
 
  • `cd Naya-Userbot`
 
@@ -63,7 +63,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 • `curl -sSL https://get.docker.com | sh`
 
- • `git clone https://github.com/naya1503/Naya-Userbot`
+ • `git clone https://github.com/barcacoty2024/Naya-Userbot`
 
  • `cd Naya-Userbot`
 
@@ -87,7 +87,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 • Silakan isi vars yang diperlukan API_ID, API_HASH, SESSION, HEROKU_API dan HEROKU_APP_NAME
 
 <h3 align="center">Click The Button</h3>
-<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/naya1503/Naya-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/barcacoty2024/Naya-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 </details>
