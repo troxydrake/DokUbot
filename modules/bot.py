@@ -30,7 +30,7 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://telegra.ph/file/c0d6de3e5501c55222855.jpg"
 
 buttons = [
     [
@@ -52,7 +52,7 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ʙᴇᴇ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
   ◈ Dan - {}
@@ -60,7 +60,7 @@ alive_txt = """
 """
 
 in_alive = """
-<b> Dan-Userbot</b>
+<b> Bee Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
