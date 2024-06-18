@@ -9,19 +9,19 @@
 from . import LOG_CHANNEL, Button, asst, ayra_cmd, eor, get_string
 
 REPOMSG = """
-◈ **ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​** ◈\n
+◈ **ʙᴇᴇ ꭙ ᴜꜱᴇʀʙᴏᴛ​** ◈\n
 ◈ Repo - [Click Here](https://github.com/barcacoty2024/Naya-Userbot)
-◈ Support - @Disney_storeDan
+◈ Support - @BeeXDomp
 """
 
 RP_BUTTONS = [
     [
         Button.url(get_string("bot_3"), "https://github.com/barcacoty2024/Naya-Userbot"),
     ],
-    [Button.url("Support Group", "t.me/Disney_storeDan")],
+    [Button.url("Support Group", "t.me/Top_Mutualan_Indonesia")],
 ]
 
-AYSTRING = """🎇 **Thanks for Deploying Dan-Userbot**
+AYSTRING = """🎇 **Thanks for Deploying Bee Userbot**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -32,7 +32,7 @@ async def useAyra(rs):
     msg = await asst.send_message(
         rs.chat_id,
         AYSTRING,
-        file="https://graph.org/file/60408fea8439e6702674d.jpg",
+        file="https://telegra.ph/file/a4383cada96af332b0b37.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
