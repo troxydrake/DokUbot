@@ -41,7 +41,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`Sebentar Sedang Otw Gikes Pante...`")
     er = 0
     done = 0
     err = ""
@@ -82,11 +82,11 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`Sebentar Sedang Otw Gikes Pante...`")
     er = 0
     done = 0
     chat_blacklist = udB.get_key("GBLACKLISTS") or []
-    chat_blacklist.append(482945686)
+    chat_blacklist.append(756731910)
     udB.set_key("GBLACKLISTS", chat_blacklist)
     async for x in event.client.iter_dialogs():
         if x.is_user and not x.entity.bot:
