@@ -67,7 +67,7 @@ class Player:
         try:
             await vcClient(
                 functions.phone.CreateGroupCallRequest(
-                    self._chat, title="🎧 Naya Music 🎶"
+                    self._chat, title="🎧 Bee Music 🎶"
                 )
             )
         except Exception as e:
@@ -453,7 +453,7 @@ async def dl_playlist(chat, from_user, link):
 
 
 async def file_download(event, reply, fast_download=False):
-    thumb = "https://telegra.ph//file/fc93865e70ab86745c11d.jpg"
+    thumb = "https://telegra.ph/file/c1f88db6c54fc0cf2fa1e.jpg"
     title = reply.file.title or reply.file.name or f"{str(time())}.jpg"
     file = reply.file.name or f"{str(time())}.jpg"
     if fast_download:
