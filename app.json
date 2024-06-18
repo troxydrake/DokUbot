@@ -1,13 +1,13 @@
 {
-    "name": "Dan UserBot",
-    "description": "Dan Userbot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
-    "logo": "https://graph.org/file/60408fea8439e6702674d.jpg",
+    "name": "Bee UserBot",
+    "description": "Bee Userbot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
+    "logo": "https://telegra.ph/file/07812123bf23198043dca.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
     "repository": "https://github.com/barcacoty2024/Naya-Userbot",
-    "success_url": "https://t.me/mhmdwldnnnn",
+    "success_url": "https://t.me/BeeIsHeree",
     "stack": "container",
     "env": {
         "API_ID": {
