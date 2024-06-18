@@ -14,13 +14,13 @@ from . import *
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Support •", url="t.me/Top_Mutualan_Indonesia"),
     ],
 ]
 
-ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
-gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-aypic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+ofox = "https://telegra.ph/file/b9781dee8b753b7c66000.jpg"
+gugirl = "https://telegra.ph/file/2bdcf315cf65414cb07dd.jpg"
+aypic = "https://telegra.ph/file/c0d6de3e5501c55222855.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -33,11 +33,11 @@ apis = [
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Naya Userbot",
+            title="Bee Userbot",
             description="Userbot | Telethon",
             thumb=wb(aypic, 0, "image/jpeg", []),
-            text="**◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​ ◈**",
+            text="**◈ ʙᴇᴇ ꭙ ᴜꜱᴇʀʙᴏᴛ​ ◈**",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Naya-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="Bee Userbot", switch_pm_param="start")
