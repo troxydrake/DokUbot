@@ -42,7 +42,7 @@ upage = 0
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Support •", url="t.me/Top_Mutualan_Indonesia"),
     ],
 ]
 
@@ -138,7 +138,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @KynanSupport"
+    help_ += "\n© @Top_Mutualan_Indonesia"
     data = f"uh_{key}_"
     if index is not None:
         data += f"|{index}"
@@ -319,9 +319,9 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Ayra Op",
+                            title="Bee Yoichi",
                             text=txt,
-                            description="@Riizzvbss",
+                            description="@BeeXDomp",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -334,10 +334,10 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ayra Op",
+                        title="Bee Yoichi",
                         type=_type,
                         text=txt,
-                        description="@Riizzvbss",
+                        description="@BeeXDomp",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
@@ -349,7 +349,7 @@ async def ibuild(e):
         except Exception as er:
             LOGS.exception(er)
     result = [
-        await builder.article("Ayra Op", text=txt, link_preview=False, buttons=btn)
+        await builder.article("Bee Yoichi", text=txt, link_preview=False, buttons=btn)
     ]
     await e.answer(result)
 
