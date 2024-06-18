@@ -10,14 +10,14 @@ import re
 from . import *
 
 STRINGS = {
-    1: """ **Terima Kasih Telah Deploy Naya-Userbot!**
+    1: """ **Terima Kasih Telah Deploy Bee Userbot!**
 
 Beberapa Bantuan Untuk Kamu Pelajari.""",
-    2: """🎉** Tentang Naya-Userbot**
+    2: """🎉** Tentang Bee Userbot**
 
- Naya-Userbot adalah repo userbot yanh dibuat untuk kekasih saya, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.
+ Bee Userbot adalah repo userbot yanh dibuat untuk kekasih saya, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.
 
-❣ Dibuat oleh **@KynanSupport**""",
+❣ Dibuat oleh **@BeeIsHeree**""",
     3: """
 
 -> Kamu bisa memutar musik melalui userbot ini.
@@ -31,7 +31,7 @@ Beberapa Bantuan Untuk Kamu Pelajari.""",
 -> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
 
 **• To Know About Updates**
-  - Join @kynansupport.""",
+  - Join @BeeXDomp.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
