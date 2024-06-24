@@ -2,7 +2,7 @@
   <img src="./resources/extras/logo.jpg" alt="Dan Logo">
 </p>
 <h1 align="center">
-  <b>ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
+  <b>Naya ꭙ ᴜꜱᴇʀʙᴏᴛ​</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
